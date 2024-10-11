@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Animemangatoon</string>
+    <string-array name="title">
+        <item>Solo Leveling</item>
+        <item>Tower of God</item>
+        <item>Hardcore Leveling Warrior</item>
+        <item>Noblesse</item>
+        <item>The God of High School</item>
+    </string-array>
+    <string-array name="shortDescription">
+        <item>One of the best action fantasy manhwa and the most talked about adaptation in recent times is undoubtedly Solo Leveling. It is set in a world where humans have discovered supernatural skills, while our protagonist, Sung Jin-Woo, is a nobody with his E-Rank hunting skills. Things will take an interesting turn for him when he becomes the sole survivor of a dungeon raid. Awakened with strange new powers, Sung Jin-Woo will level up from being the weakest Hunter and eventually become the most powerful entity in the universe.</item>
+        <item>Even if you are not a manhwa fan, you must have heard of Tower of God. This action fantasy manhwa became especially popular after its anime adaptation. Tower of God focuses on Twenty-Fifth Bam, the young protagonist of the manhwa, who is determined to climb a mysterious Tower to find his friend Rachel. It is to be noted that the titular tower has different floors, and each floor has different obstacles. His quest is not going to be an easy one, and whether or not he will be able to meet his friend remains to be seen. Tower of God Season 2 has also been recently released.</item>
+        <item>Gong Won-Ho is the top player of Lucid Adventure because he uses his alias, Hardcore Leveling Warrior, to stay on top. However, one day, the unimaginable happens – he gets defeated, and now he has to get back on the top from the bottom. The most fascinating aspect of this action fantasy manhwa is how he climbed his way to the top in the first place.</item>
+        <item>After being in a slumber for over 800 years, Cadis Etrama Di Raizel, aka Rai, wakes up in an unfamiliar modern world. Fortunately, he meets his loyal servant Frankenstein, who is now the owner of a high school. After attending the school, Rai tries to live an ordinary life, concealing his true identity; however, that won’t happen for long. This supernatural action fantasy manhwa will keep you engaged with its beautiful illustration and unique narrative till the end. It also has its anime adaptation.</item>
+        <item>The God of High School is one of the best action fantasy manhwa that has been adapted into an anime. Jin Mori, the protagonist of the story, takes part in a suspicious tournament, the prize of which is whatever the winner wants. Like Twenty-Fifth Baam, Mori seems like an ordinary individual, but as he confronts challenges, he understands more about the three realms and his powers.</item>
+    </string-array>
+
+    <string-array name="longDescription">
+        <item>Solo Leveling is a popular South Korean web novel and manhwa (Korean comics) series that follows Sung Jin-Woo, a low-ranked hunter who struggles to make ends meet until a mysterious dungeon appears and changes his life forever.
+            Key Points:
+            Unexpected Power: After surviving a deadly dungeon, Jin Woo awakens with extraordinary powers and becomes the only hunter capable of leveling up independently.
+            Solitary Journey: As Jin Woo strength grows, he embarks on a perilous journey to become the strongest hunter in the world, facing formidable enemies and uncovering hidden secrets.
+            Unique Abilities: Jin-Woo abilities include summoning powerful creatures, enhancing his physical attributes, and mastering various combat techniques.
+            Dark Fantasy Elements: The series explores themes of power, sacrifice, and the consequences of unchecked ambition, with a dark and gritty atmosphere.
+            Popularity: Solo Leveling has gained a massive following worldwide, with its engaging storyline, well-developed characters, and stunning visuals. It has been praised for its action-packed sequences, intricate world-building, and exploration of darker themes within the fantasy genre.
+        </item>
+
+        <item>
+        Tower of God is a popular South Korean webtoon series that follows the journey of Bam, a young boy who climbs a mysterious tower in search of his friend Rachel.
+        Key Points:
+        Mysterious Tower: The tower is a vast, labyrinthine structure with countless floors, each filled with unique challenges and dangers.
+        Unique Abilities: As Bam ascends the tower, he discovers his hidden abilities and forms alliances with other climbers.
+        Intricate Worldbuilding: The series explores the history and lore of the tower, revealing a complex and fascinating world.
+        Dark Themes: Tower of God delves into themes of power, betrayal, and the human condition, with a darker tone than many other fantasy series.
+        Popularity: Tower of God has gained a large following worldwide, with its captivating storytelling, complex characters, and stunning visuals. It is praised for its intricate world-building, unique combat system, and exploration of darker themes within the fantasy genre.
+        </item>
+
+        <item>Hardcore Leveling Warrior is a popular South Korean web novel and manhwa series that follows Han Seong-Hyun, a former pro-gamer who finds himself trapped in a virtual reality game called Arcadia.
+Key Points:
+Unexpected Journey: Han Seong-Hyun gaming skills prove invaluable in the real-world game, allowing him to quickly level up and become a formidable warrior.
+Unique Abilities: As Han Seong-Hyun progresses, he discovers hidden abilities and forms alliances with other players.
+Survival and Adventure: The series focuses on Han Seong-Hyun struggles to survive in the harsh world of Arcadia, facing deadly monsters and rival players.
+Intricate Worldbuilding: The series explores the history and lore of Arcadia, revealing a complex and fascinating world.
+Popularity: Hardcore Leveling Warrior has gained a large following worldwide, with its engaging storyline, well-developed characters, and stunning visuals. It is praised for its action-packed sequences, intricate world-building, and exploration of the gaming genre.
+        </item>
+
+        <item>Noblesse is a popular South Korean webtoon series that follows Cadis Etrama Di Raizel, a powerful vampire who awakens from a centuries-long slumber to protect his loyal servants and uncover the secrets of his past.
+Key Points:
+Powerful Vampire: Cadis Etrama Di Raizel, or Rai for short, possesses immense power and abilities, making him a formidable force against his enemies.
+Loyal Servants: Rai is accompanied by a group of loyal servants, including Frankenstein, a powerful scientist and guardian, and Seira, a skilled swordsman.
+Dark Secrets: As Rai reintegrates into modern society, he must confront dark forces that threaten his existence and the safety of his loved ones.
+Intricate Worldbuilding: The series explores the history and lore of vampires and other supernatural beings, revealing a complex and fascinating world.
+Popularity: Noblesse has gained a large following worldwide, with its captivating storytelling, well-developed characters, and stunning visuals. It is praised for its action-packed sequences, intricate world-building, and exploration of darker themes within the fantasy genre.
+        </item>
+
+        <item>The God of High School is a popular South Korean webtoon series that follows three high school students who are invited to participate in a mysterious tournament that could determine the fate of humanity.
+Key Points:
+Martial Arts Tournament: The tournament pits the strongest high school students from around the world against each other, testing their skills and determination.
+Unique Abilities: Each participant possesses unique abilities, ranging from superhuman strength and speed to mystical powers.
+Dark Secrets: As the tournament progresses, the students uncover dark secrets about the organization behind the event and the true stakes involved.
+Intricate Worldbuilding: The series explores the history and lore of martial arts and other supernatural elements, revealing a complex and fascinating world.
+Popularity: The God of High School has gained a large following worldwide, with its engaging storyline, well-developed characters, and stunning visuals. It is praised for its action-packed sequences, intricate world-building, and exploration of darker themes within the fantasy genre.
+        </item>
+
+    </string-array>
+</resources>
