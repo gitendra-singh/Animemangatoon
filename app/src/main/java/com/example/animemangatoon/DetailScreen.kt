@@ -25,10 +25,16 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringArrayResource
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
+import com.example.animemangatoon.local.FavoriteRepository
+import com.example.animemangatoon.local.FavoriteWebtoon
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun DetailScreen(index: Int) {
+fun DetailScreen(index: Int, favoriteRepository: FavoriteRepository, navController : NavController) {
     val titles = stringArrayResource(id = R.array.title)
     val longDescriptions = stringArrayResource(id = R.array.longDescription)
     val imageResources = listOf(
@@ -44,7 +50,9 @@ fun DetailScreen(index: Int) {
             TopAppBar(
                 title = { Text("AnimeMangaToon") },
                 actions = {
-                    IconButton(onClick = { /*TODO*/ }) {
+                    IconButton(onClick = {
+                        navController.navigate("favorites")
+                    }) {
                         Icon(imageVector = Icons.Filled.Favorite, contentDescription = "Favorites",
                             modifier = Modifier
                                 .graphicsLayer {
@@ -90,10 +98,20 @@ fun DetailScreen(index: Int) {
                         Spacer(modifier = Modifier.size(16.dp))
                         Text(text = longDescriptions[index])
                         Spacer(modifier = Modifier.size(32.dp))
-                        Button(onClick = {  }) {
-                            Text(text = "Add to Favorites",
-                                modifier = Modifier
+                        Button(onClick = {
+                            CoroutineScope(Dispatchers.IO).launch {
+                                favoriteRepository.addFavorite(
+                                    FavoriteWebtoon(
+                                        id = index,
+                                        title = titles[index],
+                                        description = longDescriptions[index],
+                                        imageRes = imageResources[index]
                                     )
+                                )
+                            }
+                        }) {
+                            Text(text = "Add to Favorites"
+                            )
                         }
                     }
                 }

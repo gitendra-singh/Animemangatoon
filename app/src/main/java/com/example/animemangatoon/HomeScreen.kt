@@ -47,7 +47,9 @@ fun HomeScreen(navController: NavController) {
             TopAppBar(
                 title = { Text("AnimeMangaToon") },
                 actions = {
-                    IconButton(onClick = { /*TODO*/ }) {
+                    IconButton(onClick = {
+                        navController.navigate("favorites")
+                    }) {
                         Icon(imageVector = Icons.Filled.Favorite, contentDescription = "Favorites",
                             modifier = Modifier
                                 .graphicsLayer {
